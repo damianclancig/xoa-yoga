@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["smtp.maileroo.com"],
+    },
+  },
 };
 
 export default nextConfig;
